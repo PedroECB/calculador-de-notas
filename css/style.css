@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+body{
+    background-color: rgb(75, 16, 124);
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 0.8em;
+}
+
+input{
+    border: 2px solid white;
+    background-color: rgba(39, 30, 30, 0.3) !important;
+    color: white !important;
+}
+
+
+::placeholder{
+    color: rgb(165, 172, 168) !important;
+}
+.card{
+    background-color: rgba(0, 0 , 0, 0.3);
+}
+
+.n-box{
+    border: 1px solid white;
+    border-radius: 3px;
+}
